@@ -1,0 +1,21 @@
+# Site settings
+title: Cody Codes
+header-img: img/home-bg.png
+email: ckasselman@fordham.edu
+copyright_name: codykas
+description: > # this means to ignore newlines until "baseurl:"
+  A Present Journey
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: codykas
+github_username:  codykas
+learn_profile: codykas
+email_username: ckasselman@fordham.edu
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
